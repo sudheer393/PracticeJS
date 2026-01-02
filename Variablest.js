@@ -47,3 +47,14 @@ let w= 10
 let l=15
 const Rectangle = w*l
 console.log('Area of Rectangle'+ Rectangle);
+
+// 25% Hike
+
+let rameshsalary = 10000;
+let sureshsalary = 15000;
+const hike  = 25;
+const rameshhikesalary = rameshsalary + (rameshsalary * hike / 100);
+const sureshhikesalary = sureshsalary + (sureshsalary * hike / 100);
+
+console.log("Ramesh hiked salary", rameshhikesalary);
+console.log("Suresh hiked salary", sureshhikesalary);
